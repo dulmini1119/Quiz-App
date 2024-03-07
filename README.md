@@ -1,46 +1,46 @@
-# Getting Started with Create React App
+# Quiz App
+This is a simple quiz application built with React and TypeScript. It allows users to take a quiz by answering multiple-choice questions fetched from an external API.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+## Technologies Used
+-React: Frontend library for building user interfaces.
+-TypeScript: Superset of JavaScript that adds static typing.
+-HTML/CSS: Used for structuring and styling the application.
+-Fetch API: Used to make HTTP requests to fetch quiz questions from the Open Trivia Database.
+-Utilis: Utility function for shuffling arrays.
 
-### `npm start`
+##How to Use
+-Clone the repository:
+git clone https://github.com//quiz-app.git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+-Install dependencies:
+cd quiz-app
+npm install
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+-Start the development server:
+npm start
 
-### `npm test`
+-Open your browser and navigate to http://localhost:3000 to view the application.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
+-Fetches quiz questions from an external API based on the selected difficulty level.
+-Allows users to answer multiple-choice questions and tracks their score.
+-Displays the current question number and total number of questions.
+-Provides feedback on whether the selected answer is correct or incorrect.
+-Supports navigation between questions and restarting the quiz.
 
-### `npm run build`
+## Directory Structure
+### src/
+-components/: Contains React components.
+-utilis/: Contains utility functions.
+-App.tsx: Main component for the application.
+-API.ts: Module for fetching quiz questions.
+-index.tsx: Entry point of the application.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Credits
+-Quiz questions are fetched from the Open Trivia Database.
+-This project is inspired by tutorial.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
